@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cook</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>
+            <a class="image" href="index.html"><img src="img/logo.png" alt="chefcook"></a>
+        </h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="recipe.html">რეცეპტები</a></li>
+                <li><a href="">სტატიები</a></li>
+                <li><a href="">გამოხმაურება</a></li>
+            </ul>
+        </nav>
+        <p class="love"> <i class="fa-regular fa-heart"></i></p>
+        <div class="avt">
+            <p><a class="shesvka" href="shesvla.html"></a></p>
+        </div>
+    </header>
+    <main>
+        <h2 class="registracia">სარეგისტრაციო ფორმა</h2>
+        <form action="success.html" method="get" class="reg" id="form">
+            <input type="text" name="name" id="name" placeholder="სახელი" required>
+            <input type="text" name="lastname" id="lastname" placeholder="გვარი" required>
+            <div class="gender">
+                <input type="radio" name="gender" id="man">
+                <label for="man">
+                    კაცი
+                </label>
+
+                <input type="radio" name="gender" id="woman">
+                <label for="man">
+                    ქალი
+                </label>
+                <input type="radio" name="gender" id="rmt">
+                <label for="rmt">
+                    Rather not to say
+                </label>
+            </div>
+            <input type="date" name="date" id="date">
+            <input type="email" name="email" id="email" placeholder="ელ.ფოსტა" required>
+            <input type="password" name="password" id="password" placeholder="პაროლი" required>
+            <input type="password" name="check" id="check" placeholder="გაიმეორეთ პაროლი" required>
+            <p class="answer" id="answer"></p>
+            <input type="checkbox" name="rules" id="rules" required>
+            <label for="rules" class="rules">
+                ვეთანხმები <a href="https://s27.q4cdn.com/273397814/files/doc_downloads/test.pdf" target="blank" rel="unfollow">წესებს და პირობებს</a>
+            </label>
+            <input type="submit" value="რეგისტრაცია" onclick="paroli()"></form>
+            
+    </main>
+    <footer>
+        <div class="cont"><div class="rights"><img src="img/copyright.png" alt="copyright"></div>
+        <p> All rights reserved</p></div>
+        
+    </footer>
+    <script src="https://kit.fontawesome.com/7a935d1852.js" crossorigin="anonymous"></script>
+    <script src="js/scrypt.js"></script>
+</body>
+</html>

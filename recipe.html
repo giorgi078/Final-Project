@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Cook</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="index.html"><img src="img/logo.png" alt="chefcook"></a>
+        </h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="recipe.html">რეცეპტები</a></li>
+                <li><a href="">სტატიები</a></li>
+                <li><a href="">გამოხმაურება</a></li>
+            </ul>
+        </nav>
+        <p class="love"> <i class="fa-regular fa-heart"></i></p>
+        <div class="avt">
+            <p><a class="shesvka" href="#"></a></p>
+        </div>
+    </header>
+    <main>
+        <h2 class="recipename">რეცეპტები</h2>
+        <div class="satavso">
+            <div class="shvili pizza">
+                <div class="like" onclick="hearting()" >
+                    <img src="img/black.png" alt="heart" id="like" >
+                </div>
+                <h2>პიცა &#8211; მარგარიტა</h2>
+                <p class="recipe"><a href="pizza.html">რეცეპტის ნახვა</a></p>
+            </div>
+            <div class="shvili carbonara">
+                <div class="like" onclick="heart()"><img src="img/black.png" alt="heart" id="like2" ></div>
+                <h2>პასტა &#8211; კარბონარა</h2>
+                <p class="recipe"><a href="carbonara.html">რეცეპტის ნახვა</a></p>
+            </div>
+            <div class="shvili cheesecake">
+                <div class="like" onclick="heartt()">
+                <img src="img/black.png" alt="heart" id="like3"></div>
+                <h2>ჩიზქეიქი</h2>
+                <p class="recipe"><a href="cheesecake.html">რეცეპტის ნახვა </a></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="cont"><div class="rights"><img src="img/copyright.png" alt="copyright"></div>
+        <p> All rights reserved</p></div>
+        
+    </footer>
+    <script src="https://kit.fontawesome.com/7a935d1852.js" crossorigin="anonymous"></script>
+    <script src="js/scrypt.js"></script>
+</body>
+</html>
